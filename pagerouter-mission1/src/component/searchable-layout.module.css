@@ -1,0 +1,23 @@
+.searchbar_container {
+    display: flex;
+    gap: 3px;
+    margin-bottom: 20px;
+}
+
+.searchbar_container > input {
+    flex: 1;
+    padding: 7px;
+    border-radius: 2px;
+    background-color: black;
+    color: rgb(220, 220, 220);
+    border: 1px solid rgb(220, 220, 220);
+}
+
+.searchbar_container > button {
+    width: 80px;
+    border-radius: 2px;
+    border: none;
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+}
